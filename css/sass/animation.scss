@@ -1,0 +1,21 @@
+  
+@keyframes fade {
+  0% {
+    opacity: 1
+  }
+  33% {
+  	opacity: 0;
+  	padding-left: 300px;
+    transform: translateX(100%);
+    transform: translateY(10px);
+  }
+	66% {
+  	padding-left: -300px;
+    transform: translateX(-100%);
+    transform: translateY(-100px);
+    opacity: 0;
+	}
+  100% {
+    opacity: 1;
+  }
+}

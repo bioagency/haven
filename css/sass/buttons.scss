@@ -1,0 +1,18 @@
+
+.button {	
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	&-next {
+		@extend .button;
+		background-color: red;
+
+	}
+
+	&-prev {
+		@extend .button;
+		margin-left: 150px;
+		background-color: blue;
+	}
+
+}
