@@ -46,7 +46,7 @@ module.exports = function(grunt) {
       compile: {
         files: {
          'dist/css/style.min.css': ['dist/style.css']
-        } 
+        }
       }
     },
 
@@ -63,4 +63,3 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['watch']);
 
 };
-

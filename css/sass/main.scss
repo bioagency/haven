@@ -16,7 +16,7 @@ main {
   margin-right:auto;
 	width: 100%;
 	height: 100px;
-	background-image: url('./../../assets/images/header.jpg'); 
+	background-image: url('./../../assets/images/header.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 1;
@@ -30,14 +30,14 @@ main {
 
 	&-bar {
 		height: 150px;
-		background-image: url('./../../assets/images/bar.png'); 
+		background-image: url('./../../assets/images/bar.png');
 		background-repeat: no-repeat;
 		background-position: top center;
 	}
 
 	&-main{
 		height: 4400px;
-		background-image: url('./../../assets/images/main.jpg'); 
+		background-image: url('./../../assets/images/main.jpg');
 		background-repeat: no-repeat;
 		background-position: top center;
 	}
