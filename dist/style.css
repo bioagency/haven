@@ -60,6 +60,11 @@ main {
     background-repeat: no-repeat;
     background-position: top center; }
 
+.content-invision-link {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
 @-webkit-keyframes fade {
   0% {
     opacity: 1; }
